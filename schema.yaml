@@ -1,5 +1,5 @@
-title: "Use OCI DevOps CICD with Functions"
-description: "Create Function and DevOps Deploy service to manage your Functions deployments."
+title: "DDI4OCI - OCI DevOps hardening tool"
+description: "Create OCI DevOps project to deploy service to manage VM and DBs configuration."
 schemaVersion: 1.1.0
 version: "20190304"
 locale: "en"
