@@ -113,11 +113,11 @@ variable "repository_description" {
 }
 
 variable "git_repo" {
-  default = "https://github.com/RahulMR42/oci-sample-function-with-python"
+  default = "https://github.com/kacper-aobg/DDI4OCI-stack"
 }
 
 variable "git_repo_name" {
-  default = "oci-sample-function-with-python"
+  default = "DDI4OCI-stack"
 }
 
 variable "repository_repository_type" {
