@@ -356,7 +356,7 @@ variables:
 
   deploy_pipeline_description:
     type: string
-    default: "Deploy-Function-Pipeline"
+    default: "Email-Sender-Pipeline"
     required: false
     title: "Deploy Pipeline Description"
     description: "Deploy Pipeline Description."     
