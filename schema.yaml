@@ -253,7 +253,7 @@ variables:
 
   build_pipeline_stage_build_spec_file:
     type: string
-    default: ""
+    default: "IaC_Deployment_Pipeline/build_spec.yaml"
     required: false
     title: "Build Stage of Build Pipeline - Spec File"
     description: "Build Stage of Build Pipeline -Spec File."        
@@ -336,30 +336,30 @@ variables:
 # DevOps Artifacts
 #############
 
-  container_repository_is_public:
-    type: boolean
-    title: "Is the container repository public?"
-    description: "Check if the container repository should be public."
-    visible: true
-    default: true  
-
-  deliver_artifact_stage_display_name:
-    type: string
-    default: "Deliver-Artifact-Stage"
-    required: false
-    title: "Deliver Artifact Stage Display Name"
-    description: "Deliver Artifact Stage Display Name."   
+#  container_repository_is_public:
+#    type: boolean
+#    title: "Is the container repository public?"
+#    description: "Check if the container repository should be public."
+#    visible: true
+#    default: true
+#
+#  deliver_artifact_stage_display_name:
+#    type: string
+#    default: "Deliver-Artifact-Stage"
+#    required: false
+#    title: "Deliver Artifact Stage Display Name"
+#    description: "Deliver Artifact Stage Display Name."
 
 ##################
 # Deploy Pipeline
 ##################
 
-  deploy_pipeline_description:
-    type: string
-    default: "Email-Sender-Pipeline"
-    required: false
-    title: "Deploy Pipeline Description"
-    description: "Deploy Pipeline Description."     
+#  deploy_pipeline_description:
+#    type: string
+#    default: "Email-Sender-Pipeline"
+#    required: false
+#    title: "Deploy Pipeline Description"
+#    description: "Deploy Pipeline Description."
 
 ############
 #Pipeline
