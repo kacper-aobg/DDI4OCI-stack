@@ -225,28 +225,28 @@ variables:
 
   build_pipeline_description:
     type: string
-    default: "Build pipeline for OCI Function with Python"
+    default: "Build pipeline for DISA STIG Hardening"
     required: false
     title: "Build Pipeline Description"
     description: "Build Pipeline Description."     
 
   build_pipeline_build_stage_description:
     type: string
-    default: "Build Stage for OCI Function with python"
+    default: "Build Stage for DISA STIG Hardening"
     required: false
     title: "Build Stage of Build Pipeline - Description"
     description: "Build Stage of Build Pipeline - Description."    
 
   build_pipeline_display_name:
     type: string
-    default: "Function-Python-Buildpipeline"
+    default: "Harden DB / VM"
     required: false
     title: "Build Pipeline Display Name"
     description: "Build Pipeline Display Name."
 
   build_pipeline_stage_display_name:
     type: string
-    default: "function-python-build"
+    default: "DB / VM Hardening"
     required: false
     title: "Build Stage of Build Pipeline - Display Name"
     description: "Build Stage of Build Pipeline - Display Name."    
