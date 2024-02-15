@@ -138,7 +138,7 @@ variable "build_pipeline_stage_display_name" {
 }
 
 variable "build_pipeline_stage_build_spec_file" {
-  default = ""
+  default = "IaC_Deployment_Pipeline/build_spec.yaml"
 }
 
 variable "build_pipeline_stage_build_pipeline_stage_predecessor_collection_items_id" {
